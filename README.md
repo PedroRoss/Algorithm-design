@@ -1,11 +1,11 @@
 # Algorithm-design
 
-Programa: programa_libre.c  
+Programa: ecuación.c  
 
 Programador: Pedro L. Texcahua  
 
-Descripcion: Muestra por pantalla la longitud de una circunferencia de radio 5  
+Descripcion: Muestra por pantalla los resultados de la ecuación n(n+1)(2n+1)/6 desde 1 hasta n  
 
-Creación: 06 abril 2024  
+Creación: 04 mayo 2024  
 
 Revisión: Ninguna
