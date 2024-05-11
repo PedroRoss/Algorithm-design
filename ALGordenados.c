@@ -10,15 +10,15 @@ int main()
     {
         do
         {
-            printf("Ingrese un número que sea mayor que 3 y menor que 15");
+            printf("Ingrese un número que sea mayor que 3 y menor que 15 \n");
             scanf("%d", &numeros[x]);
 
             if (numeros[x] < 4 || numeros[x] > 14)
             {
-                printf("Ingrese un número mayor que 3 y menor que 15");
+                printf("Ingrese un número mayor que 3 y menor que 15 \n");
             }
 
-        } while (numeros[x] > 3 || numeros[x] < 15);
+        } while (numeros[x] <= 3 || numeros[x] >= 15);
     }
 
     for (int x = 0; x < 3; x++)
@@ -39,7 +39,14 @@ int main()
     for (int x = 0; x < 3; x++)
     {
         printf("%d", numeros[x]);
+
+        if (x < 2)
+        {
+            printf(", ");
+        }
     }
+
+    printf("\n");
 
     return 0;
 }
