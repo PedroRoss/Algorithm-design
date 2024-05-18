@@ -1,11 +1,11 @@
 # Algorithm-design
 
-Programa: zodiacal.c
+Programa: sumaPares.c
 
 Programador: Pedro L. Texcahua
 
-Descripcion: Muestra por pantalla el signo zodiacal del usuario de acuerdo a sus datos de nacimiento ingresados.
+Descripcion: Solicita un número y muestra por pantalla las sumas de cada número más su par, desde 1 hasta el número elegido.
 
-Creación: 05 mayo 2024
+Creación: 17 mayo 2024
 
 Revisión: Ninguna
